@@ -1,0 +1,52 @@
+body {
+    background-color: #121212;
+}
+
+.card-custom {
+    background-color: #1E1E1E;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.15);
+}
+
+.card-header-custom {
+    background-color: transparent;
+    color: #00BFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-label {
+    color: #e0e0e0;
+}
+
+.form-control,
+.form-control option,
+select,
+select option {
+    background-color: #2C2C2C;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #00BFFF;
+    box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.25);
+}
+
+.btn-primary {
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #009fd1;
+    border-color: #009fd1;
+}
+
+.invalid-feedback {
+    color: #f44336;
+}
